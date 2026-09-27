@@ -1,6 +1,5 @@
 const translations = {
   ko: {
-    documentTitle: "Never Work Alone — 독립 소프트웨어 개발팀",
     metaDescription: "우리가 필요하다고 생각하는 소프트웨어를 만듭니다.",
     brandHomeLabel: "Never Work Alone 홈",
     navLabel: "주 메뉴",
@@ -28,7 +27,6 @@ const translations = {
     languageLabel: "언어 선택",
   },
   en: {
-    documentTitle: "Never Work Alone — Independent software team",
     metaDescription: "We make software that we believe should exist.",
     brandHomeLabel: "Never Work Alone home",
     navLabel: "Main navigation",
