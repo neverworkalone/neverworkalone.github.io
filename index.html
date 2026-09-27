@@ -23,7 +23,7 @@
     <header class="site-header">
       <a
         class="brand"
-        href="#top"
+        href="/"
         aria-label="Never Work Alone 홈"
         data-i18n-attr="aria-label:brandHomeLabel"
       >
@@ -129,7 +129,7 @@
             <span class="product-info">
               <span class="product-title-row">
                 <span class="product-name"><span class="product-name-text">Typewriter</span> <span class="product-arrow" aria-hidden="true">↗</span></span>
-                <span class="product-category" data-i18n="dictionaryCategory">사전 / 크롬 확장 프로그램</span>
+                <span class="product-category" data-i18n="typewriterCategory">유의어 사전 / 크롬 확장 프로그램</span>
               </span>
               <span class="product-description" data-i18n="typewriterDescription">
                 작가를 위한, 말의 결을 찾는 사전
@@ -143,11 +143,11 @@
       <section class="about" id="about" aria-labelledby="about-title">
         <div class="about-left">
           <p class="eyebrow section-eyebrow" data-i18n="aboutKicker">소개</p>
-          <h2 id="about-title">Never Work Alone</h2>
+          <h2 id="about-title" lang="en">Never Work Alone</h2>
         </div>
         <div class="about-right">
-          <p class="about-description" data-i18n="aboutBody">
-            Never Work Alone은 팀워크를 중시하며 혼자 일하지 말자는 가치 아래 만들어진 1인 개발팀입니다. 우리가 필요하다고 생각하는 소프트웨어를 끝까지 만듭니다.
+          <p class="about-description">
+            <span lang="en">Never Work Alone</span><span data-i18n="aboutBodyJoiner"></span><span data-i18n="aboutBody">은 팀워크를 중시하며 혼자 일하지 말자는 가치 아래 만들어진 1인 개발팀입니다. 우리가 필요하다고 생각하는 소프트웨어를 끝까지 만듭니다.</span>
           </p>
           <p class="about-quote">You'll never work alone.</p>
         </div>
@@ -155,7 +155,7 @@
     </main>
 
     <footer class="site-footer">
-      <p class="copyright">© 2026 Never Work Alone</p>
+      <p class="copyright">© <span data-current-year>2026</span> Never Work Alone</p>
       <div class="language-switch" role="group" aria-label="언어 선택" data-i18n-attr="aria-label:languageLabel">
         <button type="button" lang="en" data-language-choice="en" aria-pressed="false">en</button>
         <span class="language-divider" aria-hidden="true">|</span>

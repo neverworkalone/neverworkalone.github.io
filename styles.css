@@ -102,7 +102,8 @@ button:focus-visible {
   color: #ffffff;
 }
 
-.site-nav a:last-child span {
+.site-nav a:last-child,
+.hero-secondary-link {
   text-decoration: underline;
   text-underline-offset: 3px;
 }
@@ -220,11 +221,6 @@ button:focus-visible {
   color: var(--muted-light);
 }
 
-.hero-secondary-link span:last-child {
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
 .products {
   padding: 112px var(--page-gutter) 120px;
   background: var(--paper);
@@ -329,13 +325,13 @@ button:focus-visible {
   min-width: 0;
   max-width: 100%;
   font-family: "Space Grotesk", "Noto Sans KR", sans-serif;
-  font-size: 46px;
+  font-size: 40px;
   font-weight: 500;
   letter-spacing: -0.015em;
   line-height: 1.35;
 }
 
-.product-name-text::first-letter {
+.product-name::first-letter {
   color: var(--product-accent);
 }
 
@@ -457,7 +453,7 @@ button:focus-visible {
   color: #f4f1eb;
 }
 
-.language-switch button.is-active {
+.language-switch button:not(.is-active) {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
